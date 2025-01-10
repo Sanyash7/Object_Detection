@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 import re
 
 # Configure the API key
-genai.configure(api_key="AIzaSyAZCLiF0kL0eV3N_Rc5pM4xbC1YbZxlHPI")
+genai.configure(api_key="API-KEY")
 
 generation_config = {
     "temperature": 0.7,
